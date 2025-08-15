@@ -1,0 +1,24 @@
+### List all books
+GET http://localhost:3000/books
+
+### Add new book
+POST http://localhost:3000/books
+content-type: application/json
+
+{
+    "title": "Pan Taduesz",
+    "author": "Adam Mickiewicz"
+}
+
+### Get a book by id
+GET http://localhost:3000/books/1
+
+
+### Update book
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  "title": "Tango",
+  "author": "Sławomir Mrozek"
+}

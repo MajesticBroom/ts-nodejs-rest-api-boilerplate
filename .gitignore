@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# Keep template file for others to know the env vars
+!.env.example
+
+# Editor/IDE
+.vscode/
+.idea/
